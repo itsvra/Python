@@ -3,4 +3,4 @@ while a < 10:
     a = a + 1
     print(a)
 else:
-    print "error"
+    print "more error"
