@@ -1,0 +1,3 @@
+@echo off
+python c:\python27\performance_reg_ss_2012.py %*
+pause
