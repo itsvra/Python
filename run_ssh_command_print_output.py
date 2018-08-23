@@ -4,7 +4,7 @@ import select
 import paramiko
 
 
-host = 'reg-es.gramjuhl'
+host = 'xx'
 i = 1
 
 #
@@ -34,7 +34,7 @@ while True:
         sys.exit(1)
 
 # Send the command (non-blocking)
-stdin, stdout, stderr = ssh.exec_command("php /opt/tcm/tcm_v6/app/tcm_v6_encoded/cli/sync/export.php -u local -s regss2003 -d 10 -a -r All", get_pty=True)
+stdin, stdout, stderr = ssh.exec_command("xyxyxyxy", get_pty=True)
 
 
 
